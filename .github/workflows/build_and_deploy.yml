@@ -1,0 +1,52 @@
+name: Build and Deploy Static Site
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{steps.deployment.outputs.page_url}}
+
+    steps:
+      - name: Clone md-ssg
+        uses: actions/checkout@v3
+        with:
+          repository: deyixtan/md-ssg
+
+      - name: Checkout repository code
+        uses: actions/checkout@v3
+        with:
+          path: data
+
+      - name: Install dependencies
+        run: |
+          npm install
+
+      - name: Generate static content
+        run: |
+          npm run start
+
+      - name: Handle entry page
+        run: |
+          cd dist
+          echo "<script>location.href = \"README.html\"</script>" > index.html
+          touch .nojekyll
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
