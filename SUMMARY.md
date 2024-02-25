@@ -4,10 +4,10 @@
 * [commands](./commands/)
    * [git](./commands/git.md)
 * [swift](./Swift/)
-	* [boolean](./Swift/boolean.md)
-	* [complex data types](./Swift/complex-data-types.md)
-	* [numbers](./Swift/numbers.md)
-	* [strings](./Swift/strings.md)
-	* [variables](./Swift/variables.md)
+	* [boolean](./swift/boolean.md)
+	* [complex data types](./swift/complex-data-types.md)
+	* [numbers](./swift/numbers.md)
+	* [strings](./swift/strings.md)
+	* [variables](./swift/variables.md)
 	
 
