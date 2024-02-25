@@ -4,6 +4,7 @@ var greeting = "Hello, playground"
 ```
 
 creates a variable that can be changed over time
+can only store string after its initialised 
 
 eg:
 ```swift
@@ -23,3 +24,4 @@ let = constant, cannot change
 var playerName = "Roy"
 print(playerName)
 ```
+
