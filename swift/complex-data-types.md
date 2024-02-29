@@ -11,6 +11,16 @@ var albums = [String]()
 var scores: [Int] = [10, 12, 9]
 ```
 
+printing range of values
+```swift
+print(names[1...3])
+```
+
+print from 1 to the end of array
+```swift
+print(names[1...])
+```
+
 ## **array functions**
 
 ### count
