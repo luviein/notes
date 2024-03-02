@@ -21,6 +21,14 @@ print from 1 to the end of array
 print(names[1...])
 ```
 
+maintains the size of array after contents are removed
+```swift
+var characters = ["Lana", "Pam", "Ray", "Sterling"]
+print(characters.count)
+characters.removeAll(keepingCapacity: true)
+print(characters.count)
+```
+
 ## **array functions**
 
 ### count
