@@ -12,4 +12,5 @@
 	* [loops](./swift/loops.md)
 	* [numbers](./swift/numbers.md)
 	* [strings](./swift/strings.md)
+	* [structs](./swift/structs.md)
 	* [variables](./swift/variables.md)
