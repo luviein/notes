@@ -135,3 +135,20 @@ print(player.number)
 
 self = this in java
 
+
+## access control
+- Use `private` for “don’t let anything outside the struct use this.”
+- Use `fileprivate` for “don’t let anything outside the current file use this.”
+- Use `public` for “let anyone, anywhere use this.”
+- Use `private(set)`. This means “let anyone read this property, but only let my methods write it.”
+
+If struct has a private property, Swift cannot auto generate in the initialiser unless the private variable is initialised empty.
+
+```swift
+struct Doctor {
+	var name: String
+	var location: String
+	private var currentPatient = "No one"
+}
+let drJones = Doctor(name: "Esther Jones", location: "Bristol")
+```
