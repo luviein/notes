@@ -5,6 +5,7 @@
    * [git](./commands/git.md)
 * [swift](./swift/)
 	* [boolean](./swift/boolean.md)
+	* [classes](./swift/classes.md)
 	* [closures](./swift/closures.md)
 	* [complex data types](./swift/complex-data-types.md)
 	* [errors](./swift/errors.md)
