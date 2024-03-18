@@ -12,6 +12,7 @@
 	* [function](./swift/function.md)
 	* [loops](./swift/loops.md)
 	* [numbers](./swift/numbers.md)
+	* [protocol](./swift/protocol.md)
 	* [strings](./swift/strings.md)
 	* [structs](./swift/structs.md)
 	* [variables](./swift/variables.md)
