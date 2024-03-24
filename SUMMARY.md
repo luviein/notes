@@ -3,6 +3,8 @@
 * [home](./README.md)
 * [commands](./commands/)
    * [git](./commands/git.md)
+* [projects](./projects/)
+	* [WeSplit](./projects/WeSplit.md)
 * [swift](./swift/)
 	* [boolean](./swift/boolean.md)
 	* [classes](./swift/classes.md)
