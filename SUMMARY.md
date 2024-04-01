@@ -5,6 +5,7 @@
    * [git](./commands/git.md)
 * [projects](./projects/)
 	* [WeSplit](./projects/WeSplit.md)
+	* [GuessTheFlag](./projects/GuessTheFlag.md)
 * [swift](./swift/)
 	* [boolean](./swift/boolean.md)
 	* [classes](./swift/classes.md)
