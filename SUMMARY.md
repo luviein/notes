@@ -4,6 +4,7 @@
 * [commands](./commands/)
    * [git](./commands/git.md)
 * [projects](./projects/)
+	* [BetterRest](./projects/BetterRest.md)
 	* [GuessTheFlag](./projects/GuessTheFlag.md)
 	* [Project3](./projects/Project3.md)
 	* [WeSplit](./projects/WeSplit.md)
